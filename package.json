@@ -8,6 +8,7 @@
     "serve": "live-server public/",
     "build": "webpack",
     "build:prod": "webpack -p --env production",
+    "start": "node server/server.js",
     "dev-server": "webpack-dev-server"
   },
   "dependencies": {
